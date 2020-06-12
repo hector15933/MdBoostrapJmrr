@@ -1,0 +1,38 @@
+.view {
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgba(0, 0, 0, 1)!important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.logo-area{
+    width: 250px;
+    height: 45px;
+    position: absolute center;
+}
+
+.headimg{
+    background: no-repeat center center;
+    size: cover ;
+    height: 100vh;
+
+}
