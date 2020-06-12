@@ -5,18 +5,20 @@
 
 .navbar {
     background-color: rgb(255, 255, 255);
-    padding-top: 4px!important;
-    padding-bottom:4px!important;
+
 }
 
 .top-nav-collapse {
-    background-color: rgb(255, 255, 255)!important;
+    background-color: rgba(0, 0, 0, 0.95)!important;
+    color: #fff!important;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: rgb(255, 255, 255);
+        
     }
+    
 }
 
 html,
@@ -38,3 +40,18 @@ header,
     height: 100vh;
 
 }
+
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
